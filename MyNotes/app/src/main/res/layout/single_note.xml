@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    >
+
+    <TextView
+        android:id="@+id/singleNotex"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:maxWidth="260dp"
+        android:text="TextView"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/singleId"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="2dp"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/singleHS"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/singleDate"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="2dp"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/singleDate"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end"
+        android:layout_weight="1"
+        android:text="TextView" />
+
+</RelativeLayout>

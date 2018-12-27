@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="260dp"
+    android:layout_height="150dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="30dp"
+    android:padding="10dp"
+    android:id="@+id/enter"
+    android:weightSum="1">
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/deleteText"
+        android:hint="bye"
+        android:maxLines="2"/>
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="输入框中文字卸载该笔记本"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="再见了!"
+        android:id="@+id/deleteButton"
+        android:layout_weight="0.42" />
+</LinearLayout>

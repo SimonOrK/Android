@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="160dp"
+    android:layout_gravity="center"
+    android:weightSum="1"
+    android:background="@drawable/conf"
+    android:id="@+id/Confirm"
+    >
+
+    <Button
+        android:background="@drawable/hac"
+        android:layout_width="150dp"
+        android:layout_height="82dp"
+        android:id="@+id/backok"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:background="@drawable/no"
+        android:layout_width="150dp"
+        android:layout_height="82dp"
+        android:id="@+id/no"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@id/backok"
+        android:padding="10dp"
+        android:layout_toEndOf="@id/backok" />
+</RelativeLayout>

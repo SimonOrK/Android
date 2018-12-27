@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="260dp"
+    android:layout_height="120dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="30dp"
+    android:padding="10dp"
+    android:id="@+id/enter"
+    >
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/enterText"
+        android:hint="@string/newBook"
+        android:maxLines="2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="装订这本书"
+        android:id="@+id/EnterButton"
+        />
+
+</LinearLayout>
